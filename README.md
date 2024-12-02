@@ -1,3 +1,0 @@
-# proiect-map
-
-# Readme file

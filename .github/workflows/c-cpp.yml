@@ -28,5 +28,5 @@ jobs:
       env:
         IMAGE_NAME: ghcr.io/${{ github.repository }}/proiect-map
       run: |
-        docker build . --file Dockerfile --tag $florianloga:latest
-        docker push $florianloga:latest
+        docker build . --file Dockerfile --tag $florianloga
+        docker push $florianloga
